@@ -1,0 +1,37 @@
+{
+  "name": "@zshop/stats",
+  "version": "1.0.12",
+  "description": "vue plugin stats",
+  "main": "dist/stats.js",
+  "private": false,
+  "files": [
+    "/dist/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "release": "npm version patch && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zangyd/Zshop-Stats"
+  },
+  "keywords": [
+    "vue",
+    "stats"
+  ],
+  "author": "碧海屏风 <282216810@qq.com>",
+  "bugs": {
+    "url": "https://github.com/zangyd/Zshop-Stats/issues"
+  },
+  "homepage": "https://github.com/zangyd/Zshop-Stats#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "cross-env": "^5.0.5",
+    "webpack": "^3.6.0"
+  }
+}
